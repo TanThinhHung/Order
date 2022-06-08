@@ -17,16 +17,42 @@
 
 <body>
     <div id="main">
+        <!--menu-mobile-->
+        <div id="nav__menu__mobile" class="nav__menu__mobile ">
+            <ul class="nav__menu__mobile-list">
+                <li class="nav__menu__mobile-item">
+                    <a href="#bg-service" class="nav__menu__mobile-link">Dịch vụ</a>
+                </li>
+                <li class="nav__menu__mobile-item">
+                    <a href="#bg-price-service" class="nav__menu__mobile-link">Bảng giá</a>
+                </li>
+                <li class="nav__menu__mobile-item">
+                    <a href="#bg-guide" class="nav__menu__mobile-link">Hướng dẫn</a>
+                </li>
+                <li class="nav__menu__mobile-item">
+                    <a href="#footer" class="nav__menu__mobile-link">Liên Hệ</a>
+                </li>
+            </ul>
+            <div class="nav__register_mobile ">
+                <a href="#bg-register" class="btn nav__register-signUp">
+                    Đăng ký
+                </a>
+                <a href="" class="btn btn-outline nav__register-signIn">
+                    Đăng nhập
+                </a>
+            </div>
+        </div>
         <!--header-->
         <header id="header">
             <div class="container">
                 <!--nav-->
-                <div class="nav">
+                <div class="nav ">
                     <div class="nav__logo">
                         <a href="" class="nav__logo-link">
                             <img src="./assets/img/logo-1000.png" alt="logo" class="nav__logo-img">
                         </a>
                     </div>
+
                     <!--nav menu-->
                     <div class="nav__menu hide-on-mt">
                         <!--nav menu list-->
@@ -44,7 +70,9 @@
                                 <a href="#footer" class="nav__menu-link">Liên Hệ</a>
                             </li>
                         </ul>
+
                         <!--end nav menu list-->
+
                         <!--nav register-->
                         <div class="nav__register hidoe-on-mt">
                             <a href="#bg-register" class="btn nav__register-signUp">
@@ -57,6 +85,14 @@
                         <!--end nav register-->
                     </div>
                     <!-- end nav menu-->
+                    <!--menu-mobile-->
+                    <div class="nav__mobile" data-nav="0">
+                        <span class="menu-icon">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </span>
+                    </div>
                 </div>
                 <!-- end nav-->
 
@@ -657,7 +693,7 @@
 
 
     </div>
-
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

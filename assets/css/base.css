@@ -119,6 +119,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: var(--white-color);
+}
+
 img {
     height: auto;
     object-fit: cover;
@@ -140,7 +144,8 @@ img {
 }
 
 .btn:hover {
-    color: unset;
+    background-color: var(--white-color);
+    color: var(--primary-color);
 }
 
 .price__order-ship-title {
