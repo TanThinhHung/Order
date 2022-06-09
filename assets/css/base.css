@@ -92,6 +92,7 @@ video {
     outline: 0 none;
     padding: 0;
     vertical-align: baseline;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -141,6 +142,10 @@ img {
     outline: none;
     background: var(--primary-color);
     color: var(--white-color);
+}
+
+#main {
+    position: relative;
 }
 
 .btn:hover {

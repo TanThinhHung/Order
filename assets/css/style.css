@@ -1212,14 +1212,25 @@
 }
 
 .back-to-top {
-    position: absolute;
-    top: -15px;
+    position: fixed;
+    bottom: 40px;
     right: 30px;
     cursor: pointer;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .2s ease;
+    opacity: 0;
+}
+
+.back-to-top.active-top {
+    visibility: inherit;
+    pointer-events: auto;
+    transition: .2s ease;
+    opacity: 1;
 }
 
 .back-to-top img {
-    max-width: 70px;
+    max-width: 40px;
 }
 
 
