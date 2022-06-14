@@ -4,6 +4,10 @@
     .hide-nav-mobile {
         display: none;
     }
+    .box::before {
+        height: 245px;
+        bottom: -100px
+    }
     .bg-guide::before {
         top: -255px;
         height: 260px;
