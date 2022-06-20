@@ -201,6 +201,7 @@
 
 .content__Home-btn .btn-red-white:hover {
     background-color: var(--primary-color);
+    color: var(--white-color);
 }
 
 .content__Home-banner {
